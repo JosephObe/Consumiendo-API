@@ -1,0 +1,80 @@
+body {
+    margin:0;
+    font-family: 'Quicksand', sans-serif;
+    background: DarkMagenta;
+}
+
+#headers {
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    margin: 0;
+    font-weight: 900;
+}
+
+#btn {
+    background: Turquoise;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#btn:hover {
+    cursor: pointer;
+}
+
+#textBody {
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+}
+
+
+#bodySession {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedorPrincipal {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedor1, .contenedor2, .contenedor3 {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #000;
+    border-radius: 6px 6px 0 0;
+    margin: 10px;
+}
+
+#img1, #img2, #img3 {
+    width: 300px;
+    height: 200px;   
+}
+
+.img {
+    width: 300px;
+    height: 200px;  
+}
+
+#FavoritePrin {
+    display: flex;
+    flex-direction: column;
+}
+
+#favorite {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
